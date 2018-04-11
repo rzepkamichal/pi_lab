@@ -1,5 +1,8 @@
-et:     pob tab
+et: pob tab
+pob zero
+³ad licz
 pob n
+³ad i
 soz koniec
 petla:    pob tab
           ode a
@@ -7,10 +10,10 @@ petla:    pob tab
 wroc:     pob petla
           dod jeden
           ³ad petla
-          pob n
+          pob i
           ode jeden
           soz koniec
-          ³ad n
+          ³ad i
           sob petla
 wystapienie:  pob licz
               dod jeden
@@ -24,7 +27,7 @@ koniec:   pob et
 
 a:      rst 5
 n:      rst 10
-licz:   rst 0
+zero:   rst 0
 tab:    rst 5
         rst 5
         rst 5
@@ -35,5 +38,6 @@ tab:    rst 5
         rst 19
         rst 5
         rst 35
-tab_tmp: rpa
+i:      rpa
+licz:   rpa
 jeden:  rst 1
