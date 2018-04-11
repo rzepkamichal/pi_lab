@@ -13,7 +13,7 @@ dod wsk_sb
 ³ad operacja
 ode operacja
 dod sa
-sdp operacja
+operacja: dod 0
 //etykieta wskazujaca miejsce wpisania wyniku
 wsk_wyniki: ³ad wyniki
 //przesuniecie o jeden dalej
@@ -34,8 +34,7 @@ koniec:
 stp
 
 //podprogram wykonuj¹cy operacje
-operacja: RPA
-pwr
+
 
 //deklaracja sta³ych i zmiennych
 sa: RST 15
